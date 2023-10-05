@@ -14,7 +14,7 @@ function App () {
   const [todos, setTodos] = useState([]);
   const [allTodos, setAllTodos] = useState(0);
   const [allComplete, setAllComplete] = useState(0);
-  const {setTheme} = UseTheme()
+  const {theme, setTheme} = UseTheme()
 
 
   const handleLightThemeClick =() => {
