@@ -14,11 +14,12 @@ function App () {
   const [todos, setTodos] = useState([]);
   const [allTodos, setAllTodos] = useState(0);
   const [allComplete, setAllComplete] = useState(0);
-  const {theme, setTheme} = UseTheme()
+  const {setTheme} = UseTheme()
 
 
   const handleLightThemeClick =() => {
     setTheme('light')
+    
   }
 
   const handleDarkThemeClick =() => {
